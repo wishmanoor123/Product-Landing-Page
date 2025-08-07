@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pastel Hoodie Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Hoodie<span>Hub</span></div>
+     <div class="menu-toggle">
+    <i class="fas fa-bars"></i>
+  </div>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Cart Icon -->
+    <div class="cart-container">
+      <i class="fas fa-shopping-cart cart-icon"></i>
+      <span class="cart-count">0</span>
+      <div class="cart-dropdown">
+        <h4>Your Cart</h4>
+        <ul class="cart-items"></ul>
+        <p class="cart-total">Total: Rs. 0</p>
+        <button class="close-cart">Close</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay">
+      <div class="hero-content">
+        <h1>Pastel Cloud Hoodie</h1>
+        <p>Soft, stylish, and made for cozy days </p>
+        <a href="#pricing" class="cta-btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <h2>Why You'll Love It</h2>
+    <div class="features-grid">
+      <div class="feature-box">
+        <h3>Soft Pastel Shades</h3>
+        <p>Match your mood with trendy pastel colors.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Premium Fabric</h3>
+        <p>Made from eco-friendly cotton & fleece.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Free Shipping</h3>
+        <p>Delivered to your door without extra charges.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Cards Section -->
+  <section class="products" id="products">
+    <h2>Explore More Hoodies</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="hoodie 1.webp" alt="Hoodie 1" />
+        <h3>Olive Dream</h3>
+        <p class="price-tag">Rs. 2,199</p>
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="hoodie 4.avif" alt="Hoodie 2" />
+        <h3>Grey Softie</h3>
+        <p class="price-tag">Rs. 2,349</p>
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="hoodie3.webp" alt="Hoodie 3" />
+        <h3>Cheerish Vibe</h3>
+        <p class="price-tag">Rs. 2,099</p>
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="hoodie 5.avif" alt="Hoodie 4" />
+        <h3>Baby Pink Vibe</h3>
+        <p class="price-tag">Rs. 2,099</p>
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="hoodie 6.jpg" alt="Hoodie 5" />
+        <h3>Black Hoodie</h3>
+        <p class="price-tag">Rs. 2,099</p>
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="hoodie 7.jpg" alt="Hoodie 6" />
+        <h3>Blue Hoodie</h3>
+        <p class="price-tag">Rs. 2,099</p>
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <p>"The comfiest hoodie I’ve ever owned! The pastel colors are so cute 💖."</p>
+        <span>- Ayesha K.</span>
+      </div>
+      <div class="testimonial">
+        <p>"Perfect fit and super warm. I wear it almost every day. 💯"</p>
+        <span>- Zara M.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing / CTA -->
+  <section id="pricing" class="pricing">
+    <h2>Get Yours Now</h2>
+    <div class="price-box">
+      <p class="price"> <strong>50% Discount</strong></p>
+      <a href="#contact" class="cta-btn">Order Now</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contact-form" class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Email Address" required />
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </section>
+  
+<button id="scrollToTopBtn" title="Go to top">↑</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 HoodieHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
