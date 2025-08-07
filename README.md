@@ -28,10 +28,10 @@ Welcome to the Hoodie Product Landing Page  a modern, clean, and responsive land
 📸 Screenshots
 
  💻 Desktop View
-![Desktop Screenshot](Product Page Design\laptop view.png)
+![Desktop Screenshot](laptop view.png)
 
  📱 Mobile View
-![Mobile Screenshot](Product Page Design\mobile view.png)
+![Mobile Screenshot](mobile view.png)
 
 ---
 
